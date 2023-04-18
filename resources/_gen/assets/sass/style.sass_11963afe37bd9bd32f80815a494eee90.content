@@ -6190,7 +6190,7 @@ Navbar
   .navbar.is-fresh .navbar-item {
     color: #999; }
     .navbar.is-fresh .navbar-item.is-secondary:hover {
-      color: #beda00 !important; }
+      color: #acce22 !important; }
     .navbar.is-fresh .navbar-item.has-dropdown {
       padding: 10px 0; }
       .navbar.is-fresh .navbar-item.has-dropdown .navbar-link {
@@ -6205,13 +6205,13 @@ Navbar
         top: 3.4rem;
         min-width: 220px;
         margin-top: 4px;
-        border-top-color: #beda00; }
+        border-top-color: #acce22; }
         .navbar.is-fresh .navbar-item.has-dropdown .navbar-dropdown .navbar-item {
           padding: 10px 20px; }
       .navbar.is-fresh .navbar-item.has-dropdown:hover .navbar-link {
-        color: #beda00; }
+        color: #acce22; }
         .navbar.is-fresh .navbar-item.has-dropdown:hover .navbar-link:after {
-          border-color: #beda00; }
+          border-color: #acce22; }
     .navbar.is-fresh .navbar-item .signup {
       display: block;
       line-height: 0;
@@ -6252,7 +6252,7 @@ div.nav-item.is-drop:hover .dropContain .dropOut {
 
 div.nav-item.is-drop:hover, div.nav-item.is-drop:hover a {
   border-bottom: 1px solid transparent !important;
-  color: #beda00; }
+  color: #acce22; }
 
 div.nav-item.is-drop:hover .dropContain {
   top: 65px;
@@ -6335,10 +6335,13 @@ Section Styles
   background-color: #00beda; }
 
 .section.section-secondary {
-  background-color: #beda00; }
+  background-color: #acce22; }
 
 .section.section-tertiary {
-  background-color: #595a5c; }
+  background-color: #939abf; }
+
+.section.section-quad {
+  background-color: #e84146; }
 
 .section.section-half {
   height: 75vh !important; }
@@ -6360,7 +6363,7 @@ Section Styles
 .divider {
   height: 3px;
   border-radius: 50px;
-  background: #beda00;
+  background: #acce22;
   width: 60px; }
   .divider.is-centered {
     margin: 0 auto; }
@@ -6431,7 +6434,7 @@ footer.footer-dark {
     footer.footer-dark .footer-column ul.link-list :hover {
       color: #fcfcfc; }
   footer.footer-dark .footer-column .level-item .icon {
-    color: #beda00;
+    color: #acce22;
     transition: all 0.5s; }
     footer.footer-dark .footer-column .level-item .icon :hover {
       color: #fcfcfc; }
@@ -6484,8 +6487,8 @@ Classes to change the feel of bulma buttons
 
 .button.secondary-btn {
   outline: none;
-  border-color: #beda00;
-  background-color: #beda00;
+  border-color: #acce22;
+  background-color: #acce22;
   color: #fff;
   transition: all 0.5s; }
   .button.secondary-btn:hover {
@@ -6494,12 +6497,12 @@ Classes to change the feel of bulma buttons
     box-shadow: 0 14px 26px -12px rgba(243, 146, 0, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(243, 146, 0, 0.2) !important;
     opacity: 0.8; }
   .button.secondary-btn.btn-outlined {
-    border-color: #beda00;
-    color: #beda00;
+    border-color: #acce22;
+    color: #acce22;
     background-color: transparent; }
     .button.secondary-btn.btn-outlined:hover {
       color: #fff;
-      background-color: #beda00; }
+      background-color: #acce22; }
 
 .button.button.accent-btn {
   outline: none;
@@ -6572,7 +6575,7 @@ Cards and Card content styles
   .flex-card .navigation-tabs.outlined-pills .tabs.tabs-header.primary {
     background-color: #00beda; }
   .flex-card .navigation-tabs.outlined-pills .tabs.tabs-header.secondary {
-    background-color: #beda00; }
+    background-color: #acce22; }
   .flex-card .navigation-tabs.outlined-pills .tabs.tabs-header.accent {
     background-color: #00efb7; }
   .flex-card .navigation-tabs.outlined-pills .tabs.tabs-header ul li a {
@@ -6606,9 +6609,9 @@ input.input {
     input.input.is-primary-focus:focus ~ span.icon i {
       color: #00beda; }
   input.input.is-secondary-focus:focus {
-    border-color: #beda00; }
+    border-color: #acce22; }
     input.input.is-secondary-focus:focus ~ span.icon i {
-      color: #beda00; }
+      color: #acce22; }
   input.input.is-accent-focus:focus {
     border-color: #00efb7; }
     input.input.is-accent-focus:focus ~ span.icon i {
@@ -6731,7 +6734,7 @@ Sidebar Styles
     transform: scale(0.07);
     transform-origin: 0 0; }
     .menu-icon-wrapper svg path {
-      stroke: #beda00;
+      stroke: #acce22;
       stroke-width: 40px;
       stroke-linecap: round;
       stroke-linejoin: round;
@@ -6794,7 +6797,7 @@ Sidebar Styles
       transition: all .3s;
       cursor: pointer; }
       .sidebar .sidebar-header svg:hover {
-        stroke: #beda00;
+        stroke: #acce22;
         transform: rotate(180deg); }
   .sidebar .inner {
     position: relative; }
@@ -6840,7 +6843,7 @@ Sidebar Styles
     .sidebar .inner li.have-children, .sidebar .inner li {
       position: relative; }
     .sidebar .inner li.have-children.active > a, .sidebar .inner li.have-children.active > a span, .sidebar .inner li.have-children.active > a span:after {
-      color: #beda00; }
+      color: #acce22; }
     .sidebar .inner li.active.have-children span::after {
       -moz-transform: rotate(90deg);
       -o-transform: rotate(90deg);
@@ -7026,7 +7029,7 @@ button:focus, button:active {
 #backtotop.visible a:hover {
   outline: none;
   opacity: 0.9;
-  background: #beda00; }
+  background: #acce22; }
 
 #backtotop a {
   outline: none;
