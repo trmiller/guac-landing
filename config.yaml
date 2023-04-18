@@ -1,0 +1,226 @@
+baseURL: /
+languageCode: en-us
+publishDir: public/
+title: tornjak
+theme: hugo-fresh
+googleAnalytics: G-C86QDTQNRG
+# Disables warnings
+disableKinds:
+- taxonomy
+- taxonomyTerm
+markup:
+  goldmark:
+    renderer:
+      unsafe: true # Allows you to write raw html in your md files
+
+params:
+  # Open graph allows easy social sharing. If you don't want it you can set it to false or just delete the variable
+  openGraph: true
+  # Used as meta data; describe your site to make Google Bots happy
+  description:
+  navbarlogo:
+  # Logo (from static/images/logos/___)
+    image: logos/tornjak-logo.png
+    link: /
+  font:
+    name: "Open Sans"
+    sizes: [400,600]
+  hero:
+    # Main hero title
+    title: Take control of your workloads
+    # Hero subtitle (optional)
+    subtitle: Leverage Tornjak and SPIFFE/SPIRE to establish organization wide workload identity management based on Zero Trust.
+    # Button text
+    button1text: Learn more
+    button1link: "#about-tornjak"
+    button2text: Github
+    button2link: "https://github.com/spiffe/tornjak"
+
+    # Hero image (from static/images/___)
+    #image: illustrations/worker.svg
+    image: logos/tornjak-logo-4-3.png
+
+
+    # Footer logos (from static/images/logos/clients/___.svg)
+    # clientlogos:
+    # - systek
+    # - tribe
+    # - kromo
+    # - infinite
+    # - gutwork
+  # Customizable navbar. For a dropdown, add a "sublinks" list.
+  navbar:
+  - title: FAQ
+    url: /faq
+  - title: SPIFFE.io
+    url: https://spiffe.io
+  - title: Github
+    url: https://github.com/spiffe/tornjak
+    button: true
+
+
+  # - title: Dropdown
+  #   sublinks:
+  #   - title: Dropdown item
+  #     url: /
+  #   - title: Dropdown item
+  #     url: /
+  #   - title: Dropdown item
+  #     url: /
+  # - title: Log in
+  #   url: /
+  # - title: Sign up
+  #   url: /
+  #   button: true
+  #sidebar:
+  #  # Logo (from /images/logos/___.svg)
+  #  logo: fresh-square
+  #  sections:
+  #  - title: User
+  #    icon: user
+  #    links:
+  #    - text: Profile
+  #      url: /
+  #    - text: Account
+  #      url: /
+  #    - text: Settings
+  #      url: /
+  #  - title: Messages
+  #    icon: envelope
+  #    links:
+  #    - text: Inbox
+  #      url: /
+  #    - text: Compose
+  #      url: /
+  #  - title: Images
+  #    icon: image
+  #    links:
+  #    - text: Library
+  #      url: /
+  #    - text: Upload
+  #      url: /
+  #  - title: Settings
+  #    icon: cog
+  #    links:
+  #    - text: User settings
+  #      url: /
+  #    - text: App settings
+  #      url: /
+  section1:
+    title: How can I use Tornjak?
+    subtitle: Depending on where you are with your organization's workload identity, there are several ways to utilize Tornjak.
+    tiles:
+    - title: New to SPIRE
+      icon: mouse-globe
+      text: Spin up a sample deployment with our quickstart guide and start exploring Tornjak and SPIRE!
+      url: https://github.com/spiffe/tornjak/blob/main/docs/spire-quickstart.md
+      buttonText: Get Started
+    - title: Existing SPIRE users
+      icon: laptop-cloud
+      text: Learn how to configure your existing SPIRE deployments to use Tornjak.
+      url: https://github.com/spiffe/tornjak/blob/main/docs/spire-quickstart.md#step-2-configuring-tornjak
+      buttonText: Configure Tornjak
+    - title: Kubernetes Helm Deployments
+      icon: plug-cloud
+      text: See what can Tornjak and SPIRE can do for you with an example helm deployment on Kubernetes/OpenShift with all the bells and whistles.
+      url: /#unified-identity
+      buttonText: Learn More
+
+
+
+  section2:
+    title: What is Tornjak?
+    subtitle: Tornjak is a workload identity management plane built on top of SPIFFE/SPIRE to provide control over workloads spanning multiple clouds and platforms
+    features:
+    - title: Global Visibility and Management
+      text: Treating your workloads like "cattle, not pets" doesn't mean that you lose sight of them... Manage and view your workload identities throughout your entire organization all in one place.
+      # Icon (from /images/illustrations/icons/___.svg)
+      icon: laptop-globe
+    - title: Zero Trust and Compliance
+      text: SPIRE provides a foundation of Zero Trust that organizations can leverage. Tornjak aims to provides a platform for policy, auditability and compliance for your organization's workload identities.
+      icon: plug-cloud
+    - title: Based on Cloud Native Identity Standards
+      text: Tornjak builds on top of the Cloud Native Computing Foundadtion (CNCF) [SPIFFE/SPIRE](https://spiffe.io) projects' standard and implementation. Workload identities can be exposed through commonly used identity connectors like OIDC through SPIRE.
+      icon: doc-sync
+
+
+  sectionGithub:
+    title: What's next?
+    subtitle: Learn more about Tornjak
+    button1Text: Github
+    button1Link: https://github.com/spiffe/tornjak
+    button2Text: FAQ
+    button2Link: /faq
+  sectionUniid:
+    title: Tornjak + SPIRE on Kubernetes/OpenShift
+    subtitle: Explore a sample architecture of deploying Tornjak and SPIRE on Kubernetes and OpenShift, utilizing features such as the SPIRE workload registrar to automatically register container workloads and a webhook to define an identity schema for the cluster. The "Trusted Service Identity" helm deployments showcase how this can be done.
+    buttonText: Check out Helm charts
+    buttonLink: "https://github.com/IBM/trusted-service-identity/tree/spire"
+  section4:
+    title: Our Clients love us!
+    subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
+    clients:
+    - name: Irma Walters
+      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+      job: Accountant
+      img: 1
+    - name: John Bradley
+      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+      job: Financial Analyst
+      img: 2
+    - name: Gary Blackman
+      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+      job: HR Manager
+      img: 3
+  section5: true
+  footer:
+    # Logo (from /images/logos/___)
+    logo: fresh-white-alt.svg
+    # Social Media Title
+    socialmediatitle: Follow Us
+    # Social media links (GitHub, Twitter, etc.). All are optional.
+    socialmedia:
+    - link: https://github.com/lucperkins/github-fresh
+      # Icons are from Font Awesome
+      icon: github
+    - link: https://dribbble.com/#
+      icon: dribbble
+    - link: https://facebook.com/#
+      icon: facebook
+    - link: https://twitter.com/lucperkins
+      icon: twitter
+    - link: https://bitbucket.org/#
+      icon: bitbucket
+    bulmalogo: true
+    quicklinks:
+      column1:
+        title: "Product"
+        links:
+        - text: Discover features
+          link: /
+        - text: Why choose our product?
+          link: /
+        - text: Compare features
+          link: /
+        - text: Our roadmap
+          link: /
+        - text: AGB
+          link: /agb
+      column2:
+        title: "Docs"
+        links:
+        - text: Get started
+          link: /
+        - text: User guides
+          link: /
+        - text: Admin guide
+          link: /
+        - text: Developers
+          link: /
+      column3:
+        title: "Blog"
+        links:
+        - text: Latest news
+          link: /blog/first
+        - text: Tech articles
+          link: /blog/second

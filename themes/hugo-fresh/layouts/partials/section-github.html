@@ -1,0 +1,29 @@
+{{- $sectionGithub := .Site.Params.sectionGithub }}
+{{- $title         := index $sectionGithub "title" }}
+{{- $subtitle      := index $sectionGithub "subtitle" }}
+{{- $image         := index $sectionGithub "image" }}
+{{- $button1Text    := index $sectionGithub "button1text" }}
+{{- $button1Link    := index $sectionGithub "button1link" }}
+{{- $button2Text    := index $sectionGithub "button2text" }}
+{{- $button2Link    := index $sectionGithub "button2link" }}
+
+<section class="section section-feature-grey is-medium">
+  <div class="container">
+
+    <div class="title-wrapper has-text-centered">
+      <h2 class="title is-2">{{ $title }}</h2>
+      <h3 class="subtitle is-5 is-muted">{{ $subtitle }}</h3>
+    </div>
+
+    <p class="has-text-centered mt-20">
+      <a class="button cta is-large rounded primary-btn raised" href="{{ $button1Link }}">
+        {{ $button1Text }}
+      </a>
+      <a class="button cta is-large rounded teriary-btn raised" href="{{ $button2Link }}">
+        {{ $button2Text }}
+      </a>
+
+    </p>
+
+  </div>
+</section>
