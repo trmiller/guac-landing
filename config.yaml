@@ -21,8 +21,9 @@ params:
   description:
   navbarlogo:
   # Logo (from static/images/logos/___)
-    image: logos/guac-logo.png
+    image: logos/guac-logo-squareish.png
     link: /
+    text: GUAC
   font:
     name: "Open Sans"
     sizes: [400,600]
@@ -53,10 +54,12 @@ params:
   navbar:
   - title: FAQ
     url: /faq
-  - title: SPIFFE.io
-    url: https://spiffe.io
+  - title: Community
+    url: /community
+  - title: Docs
+    url: https://guacsec.github.io/guac-docs
   - title: Github
-    url: https://github.com/spiffe/tornjak
+    url: https://github.com/guacsec/guac
     button: true
 
 
