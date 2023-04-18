@@ -20,6 +20,10 @@ Section Styles
     &.section-tertiary{
         background-color: $tertiary;
     }
+    &.section-quad{
+        background-color: $quad;
+    }
+
 
     &.section-half {
         height: 75vh !important;

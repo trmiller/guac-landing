@@ -8,13 +8,27 @@ $grey-white: #f2f2f2;
 
 //$primary: #4FC1EA;
 //$secondary: #F39200;
-$spiffe-primary: #00beda;
-$spiffe-secondary: #beda00;
-$spiffe-tertiary: #595a5c;
 
-$primary: $spiffe-primary;
-$secondary: $spiffe-secondary;
-$tertiary: $spiffe-tertiary;
+// $guac-primary: #00beda;
+// $guac-secondary: #beda00;
+// $guac-tertiary: #595a5c;
+// $guac-quad: #e34a20;
+
+
+$guac-tomato: #e84146;
+// $guac-onion: #a6add6;
+$guac-onion: #939abf;
+$guac-avacado: #acce22;
+
+$guac-primary: #00beda;
+$guac-secondary: $guac-avacado;
+$guac-tertiary: $guac-onion;
+$guac-quad: $guac-tomato;
+
+$primary: $guac-primary;
+$secondary: $guac-secondary;
+$tertiary: $guac-tertiary;
+$quad: $guac-quad;
 $accent: #00efb7;
 
 $fade-grey: #ededed;
