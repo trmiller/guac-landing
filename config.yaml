@@ -1,7 +1,8 @@
 baseURL: /
 languageCode: en-us
 publishDir: public/
-title: tornjak
+canonifyURLs: true
+title: guac
 theme: hugo-fresh
 googleAnalytics: G-C86QDTQNRG
 # Disables warnings
