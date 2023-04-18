@@ -10,13 +10,17 @@
         <h3 class="subtitle is-5 is-muted is-spaced">{{ $subtitle }}</h3>
         <div class="divider"></div>
       </div>
-      <div class="column is-7 mt-60">
+      <div class="column is-8 mt-60">
         {{- range $features }}
-          <figure class="media-left">
+        <div class="columns">
+        <div class="column is-one-fifth">
+          <figure class="media-left is-2">
             <p class="image">
               <img src="{{ printf "/images/illustrations/icons/%s.svg" .icon | relURL }}">
             </p>
           </figure>
+        </div>
+        <div class="column">
         <article class="media icon-box">
           <div class="media-content mt-50">
             <div class="content">
@@ -28,6 +32,8 @@
             </div>
           </div>
         </article>
+        </div>
+        </div>
         {{- end }}
       </div>
     </div>
