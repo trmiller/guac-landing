@@ -117,18 +117,18 @@ params:
     - title: s1-title-1
       icon: mouse-globe
       text:  guac guac guac guac  guac guac guac guac  guac guac guac guac  guac guac guac guac
-      url: https://github.com/spiffe/tornjak/blob/main/docs/spire-quickstart.md
-      buttonText: Get Started
+      url: https://github.com/guacsec/guac
+      buttonText: Find GUAC
     - title: s1-title-2
       icon: laptop-cloud
       text: Learn how to configure your existing SPIRE deployments to use Tornjak.
-      url: https://github.com/spiffe/tornjak/blob/main/docs/spire-quickstart.md#step-2-configuring-tornjak
-      buttonText: Configure Tornjak
+      url: https://github.com/guacsec/guac
+      buttonText: Get GUAC
     - title: s1-title-3
       icon: plug-cloud
       text: See what can Tornjak and SPIRE can do for you with an example helm deployment on Kubernetes/OpenShift with all the bells and whistles.
       url: /#unified-identity
-      buttonText: Learn More
+      buttonText: Eat GUAC
 
 
 
@@ -150,16 +150,17 @@ params:
 
   sectionGithub:
     title: What's next?
-    subtitle: Learn more about Tornjak
+    subtitle: Learn more about GUAC
     button1Text: Github
-    button1Link: https://github.com/spiffe/tornjak
+    button1Link: https://github.com/guacsec/guac
     button2Text: FAQ
     button2Link: /faq
+
   sectionUniid:
-    title: Tornjak + SPIRE on Kubernetes/OpenShift
-    subtitle: Explore a sample architecture of deploying Tornjak and SPIRE on Kubernetes and OpenShift, utilizing features such as the SPIRE workload registrar to automatically register container workloads and a webhook to define an identity schema for the cluster. The "Trusted Service Identity" helm deployments showcase how this can be done.
-    buttonText: Check out Helm charts
-    buttonLink: "https://github.com/IBM/trusted-service-identity/tree/spire"
+    title: GUAC chips today
+    subtitle: section-uniid-demo demo demo our guac guac today....  guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac guac
+    buttonText: Check out our demos
+    buttonLink: "https://github.com/guacsec/guac"
 
 
   section4:
