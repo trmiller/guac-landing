@@ -121,13 +121,13 @@ params:
       buttonText: Find GUAC
     - title: s1-title-2
       icon: laptop-cloud
-      text: Learn how to configure your existing SPIRE deployments to use Tornjak.
+      text: Learn how to configure your existing organization to use GUAC
       url: https://github.com/guacsec/guac
       buttonText: Get GUAC
     - title: s1-title-3
       icon: plug-cloud
-      text: See what can Tornjak and SPIRE can do for you with an example helm deployment on Kubernetes/OpenShift with all the bells and whistles.
-      url: /#unified-identity
+      text: See what can GUAC GUAC 
+      url: https://github.com/guacsec/guac
       buttonText: Eat GUAC
 
 
