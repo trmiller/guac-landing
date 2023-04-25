@@ -52,14 +52,14 @@ params:
     # - gutwork
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
-  - title: FAQ
-    url: /faq
   - title: Community
     url: /community
   - title: Blogs
     url: /blogs
+  - title: Demos
+    url: https://guac.sh/
   - title: Docs
-    url: https://guacsec.github.io/guac-docs
+    url: https://guac.sh/
   - title: Github
     url: https://github.com/guacsec/guac
     button: true
