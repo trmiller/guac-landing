@@ -1,0 +1,16 @@
+{{- $sectionUniid := .Site.Params.sectionProblem }}
+{{- $title         := index $sectionUniid "title" }}
+{{- $subtitle      := index $sectionUniid "subtitle" }}
+{{- $image         := index $sectionUniid "image" }}
+{{- $buttonText    := index $sectionUniid "buttontext" }}
+{{- $buttonLink    := index $sectionUniid "buttonlink" }}
+<section id="problem" class="section section-quad is-medium anchor">
+  <div class="container">
+    <div class="columns"><div class="column is-four-fifths">
+      <div class="text-wrapper red-bg-text has-text-left">
+        <h2 class="title is-1 is-spaced">{{ $title }}</h2>
+        <h3 class="subtitle">{{ $subtitle }}</h3>
+      </div>
+    </div></div>
+  </div>
+</section>

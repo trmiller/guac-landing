@@ -22,9 +22,10 @@
                 <img src="{{ printf "/images/illustrations/icons/%s.svg" .icon | relURL }}">
             </div>
             <div class="card-text">
-                {{- range .texts }}
-                <li>{{ .text }}</li>
-                {{- end }}
+                <p>{{ .text }}</p>
+            </div>
+            <div class="card-action">
+              <a href="{{ .url }}" class="button btn-align-md accent-btn raised">{{ .buttonText }}</a>
             </div>
           </div>
         </div>

@@ -6341,7 +6341,10 @@ Section Styles
   background-color: #939abf; }
 
 .section.section-quad {
-  background-color: #e84146; }
+  background-color: #e84146;
+  color: white; }
+  .section.section-quad .subtitle.is-muted {
+    color: #999; }
 
 .section.section-half {
   height: 75vh !important; }
@@ -6352,6 +6355,18 @@ Section Styles
 .section .subtitle.is-muted {
   color: #999; }
 
+/*
+
+$fade-grey: #ededed;
+$light-grey: #EFF4F7;
+$title-grey: #A9ABAC;
+$blue-grey: #444F60;
+$muted-grey: #999;
+$light-blue-grey: #98a9c3;
+$medium-grey: #66676b;
+$basaltic-grey: #878787;
+$cream: #f7eccd;
+*/
 .title-wrapper {
   max-width: 500px;
   margin: 0 auto; }
@@ -6359,6 +6374,18 @@ Section Styles
     font-family: 'Open Sans', sans-serif; }
   .title-wrapper .subtitle.is-muted {
     color: #999; }
+
+.text-wrapper {
+  max-width: 800px;
+  margin: 0 auto; }
+  .text-wrapper .title, .text-wrapper .subtitle {
+    font-family: 'Open Sans', sans-serif; }
+
+.red-bg-text .title, .red-bg-text .subtitle {
+  color: #fff; }
+
+.red-bg-text .subtitle {
+  color: #f7f7f7; }
 
 .divider {
   height: 3px;
@@ -6529,7 +6556,7 @@ Cards and Card content styles
 ========================================================================== */
 .feature-card {
   width: 300px;
-  height: 390px;
+  height: 550px;
   background-color: #fff;
   border-radius: 3px;
   margin: 0 auto; }
@@ -6543,14 +6570,16 @@ Cards and Card content styles
     height: 120px;
     margin-top: 20px; }
   .feature-card .card-text {
-    padding: 0 40px 15px;
-    height: 120px; }
+    padding: 0 40px 15px; }
     .feature-card .card-text p {
       color: #999; }
   .feature-card .card-action {
-    margin-top: 10px; }
+    margin-top: 15px;
+    bottom: 0px; }
     .feature-card .card-action .button {
       background-color: #00beda; }
+  .feature-card li {
+    padding: 5px; }
   .feature-card.is-bordered {
     border: 1px solid #ededed; }
 

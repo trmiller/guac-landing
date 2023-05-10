@@ -13,14 +13,14 @@
       <div class="column is-8 mt-60">
         {{- range $features }}
         <div class="columns">
-        <div class="column is-one-fifth">
-          <figure class="media-left is-2">
-            <p class="image">
+        <div class="column">
+          <figure class="media-left is-1">
+            <p class="image small 2-by-2">
               <img src="{{ printf "/images/illustrations/icons/%s.svg" .icon | relURL }}">
             </p>
           </figure>
         </div>
-        <div class="column">
+        <div class="column is-four-fifths">
         <article class="media icon-box">
           <div class="media-content mt-50">
             <div class="content">

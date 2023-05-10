@@ -22,6 +22,13 @@ Section Styles
     }
     &.section-quad{
         background-color: $quad;
+        color: white;
+        .subtitle {
+            &.is-muted {
+                color: $muted-grey;
+            }
+        }
+
     }
 
 
@@ -30,7 +37,6 @@ Section Styles
     }
     .title, .subtitle {
         font-family: 'Open Sans', sans-serif;
-
     }
     .subtitle {
         &.is-muted {
@@ -38,6 +44,18 @@ Section Styles
         }
     }
 }
+/*
+
+$fade-grey: #ededed;
+$light-grey: #EFF4F7;
+$title-grey: #A9ABAC;
+$blue-grey: #444F60;
+$muted-grey: #999;
+$light-blue-grey: #98a9c3;
+$medium-grey: #66676b;
+$basaltic-grey: #878787;
+$cream: #f7eccd;
+*/
 
 //Titles
 .title-wrapper {
@@ -53,6 +71,25 @@ Section Styles
         }
     }
 }
+
+
+.text-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    .title, .subtitle {
+        font-family: 'Open Sans', sans-serif;
+    }
+}
+
+.red-bg-text{
+    .title, .subtitle {
+        color: $white;
+    }
+    .subtitle {
+        color: #f7f7f7;
+    }
+}
+
 
 //Divider
 .divider {
