@@ -79,9 +79,12 @@ $cream: #f7eccd;
     .title, .subtitle {
         font-family: 'Open Sans', sans-serif;
     }
+    .subtitle {
+        line-height: 1.8;
+    }
 }
 
-.red-bg-text{
+.dark-bg-text {
     .title, .subtitle {
         color: $white;
     }

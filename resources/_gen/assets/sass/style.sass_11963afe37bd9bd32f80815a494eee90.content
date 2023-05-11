@@ -6222,6 +6222,9 @@ Navbar
       display: block;
       line-height: 0;
       font-size: .9rem !important; }
+  .navbar.is-fresh .navbar-logo {
+    color: #999;
+    padding-top: 15px; }
   .navbar.is-fresh.is-fixed {
     position: fixed;
     top: 0;
@@ -6386,11 +6389,13 @@ $cream: #f7eccd;
   margin: 0 auto; }
   .text-wrapper .title, .text-wrapper .subtitle {
     font-family: 'Open Sans', sans-serif; }
+  .text-wrapper .subtitle {
+    line-height: 1.8; }
 
-.red-bg-text .title, .red-bg-text .subtitle {
+.dark-bg-text .title, .dark-bg-text .subtitle {
   color: #fff; }
 
-.red-bg-text .subtitle {
+.dark-bg-text .subtitle {
   color: #f7f7f7; }
 
 .divider {
