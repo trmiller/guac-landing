@@ -6163,6 +6163,12 @@ Main SCSS file / Fresh
 /* ==========================================================================
 Color variables
 ========================================================================== */
+/*
+$guac-primary: #00beda;
+$guac-secondary: $guac-avacado;
+$guac-tertiary: $guac-onion;
+$guac-quad: $guac-tomato;
+*/
 /* ==========================================================================
 Navbar
 ========================================================================== */
@@ -6190,7 +6196,7 @@ Navbar
   .navbar.is-fresh .navbar-item {
     color: #999; }
     .navbar.is-fresh .navbar-item.is-secondary:hover {
-      color: #acce22 !important; }
+      color: #52ab98 !important; }
     .navbar.is-fresh .navbar-item.has-dropdown {
       padding: 10px 0; }
       .navbar.is-fresh .navbar-item.has-dropdown .navbar-link {
@@ -6205,13 +6211,13 @@ Navbar
         top: 3.4rem;
         min-width: 220px;
         margin-top: 4px;
-        border-top-color: #acce22; }
+        border-top-color: #52ab98; }
         .navbar.is-fresh .navbar-item.has-dropdown .navbar-dropdown .navbar-item {
           padding: 10px 20px; }
       .navbar.is-fresh .navbar-item.has-dropdown:hover .navbar-link {
-        color: #acce22; }
+        color: #52ab98; }
         .navbar.is-fresh .navbar-item.has-dropdown:hover .navbar-link:after {
-          border-color: #acce22; }
+          border-color: #52ab98; }
     .navbar.is-fresh .navbar-item .signup {
       display: block;
       line-height: 0;
@@ -6227,7 +6233,7 @@ Navbar
     .navbar.is-fresh.is-fixed a {
       color: #444F60; }
       .navbar.is-fresh.is-fixed a:hover {
-        color: #00beda; }
+        color: #f2f2f2; }
 
 #navbar-clone {
   position: fixed;
@@ -6252,7 +6258,7 @@ div.nav-item.is-drop:hover .dropContain .dropOut {
 
 div.nav-item.is-drop:hover, div.nav-item.is-drop:hover a {
   border-bottom: 1px solid transparent !important;
-  color: #acce22; }
+  color: #52ab98; }
 
 div.nav-item.is-drop:hover .dropContain {
   top: 65px;
@@ -6332,16 +6338,16 @@ Section Styles
   background-color: #fbfbfb; }
 
 .section.section-primary {
-  background-color: #00beda; }
+  background-color: #f2f2f2; }
 
 .section.section-secondary {
-  background-color: #acce22; }
+  background-color: #52ab98; }
 
 .section.section-tertiary {
-  background-color: #939abf; }
+  background-color: #ffffff; }
 
 .section.section-quad {
-  background-color: #e84146;
+  background-color: #2b6777;
   color: white; }
   .section.section-quad .subtitle.is-muted {
     color: #999; }
@@ -6390,7 +6396,7 @@ $cream: #f7eccd;
 .divider {
   height: 3px;
   border-radius: 50px;
-  background: #acce22;
+  background: #52ab98;
   width: 60px; }
   .divider.is-centered {
     margin: 0 auto; }
@@ -6461,7 +6467,7 @@ footer.footer-dark {
     footer.footer-dark .footer-column ul.link-list :hover {
       color: #fcfcfc; }
   footer.footer-dark .footer-column .level-item .icon {
-    color: #acce22;
+    color: #52ab98;
     transition: all 0.5s; }
     footer.footer-dark .footer-column .level-item .icon :hover {
       color: #fcfcfc; }
@@ -6495,8 +6501,8 @@ Classes to change the feel of bulma buttons
 
 .button.primary-btn {
   outline: none;
-  border-color: #00beda;
-  background-color: #00beda;
+  border-color: #f2f2f2;
+  background-color: #f2f2f2;
   color: #fff;
   transition: all 0.5s; }
   .button.primary-btn:hover {
@@ -6505,17 +6511,17 @@ Classes to change the feel of bulma buttons
     box-shadow: 0 14px 26px -12px rgba(79, 193, 234, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(79, 193, 234, 0.2) !important;
     opacity: 0.8; }
   .button.primary-btn.btn-outlined {
-    border-color: #00beda;
-    color: #00beda;
+    border-color: #f2f2f2;
+    color: #f2f2f2;
     background-color: transparent; }
     .button.primary-btn.btn-outlined:hover {
       color: #fff;
-      background-color: #00beda; }
+      background-color: #f2f2f2; }
 
 .button.secondary-btn {
   outline: none;
-  border-color: #acce22;
-  background-color: #acce22;
+  border-color: #52ab98;
+  background-color: #52ab98;
   color: #fff;
   transition: all 0.5s; }
   .button.secondary-btn:hover {
@@ -6524,12 +6530,12 @@ Classes to change the feel of bulma buttons
     box-shadow: 0 14px 26px -12px rgba(243, 146, 0, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(243, 146, 0, 0.2) !important;
     opacity: 0.8; }
   .button.secondary-btn.btn-outlined {
-    border-color: #acce22;
-    color: #acce22;
+    border-color: #52ab98;
+    color: #52ab98;
     background-color: transparent; }
     .button.secondary-btn.btn-outlined:hover {
       color: #fff;
-      background-color: #acce22; }
+      background-color: #52ab98; }
 
 .button.button.accent-btn {
   outline: none;
@@ -6577,7 +6583,7 @@ Cards and Card content styles
     margin-top: 15px;
     bottom: 0px; }
     .feature-card .card-action .button {
-      background-color: #00beda; }
+      background-color: #f2f2f2; }
   .feature-card li {
     padding: 5px; }
   .feature-card.is-bordered {
@@ -6602,9 +6608,9 @@ Cards and Card content styles
     .flex-card .navtab-content p {
       padding: 0 0.8rem 20px; }
   .flex-card .navigation-tabs.outlined-pills .tabs.tabs-header.primary {
-    background-color: #00beda; }
+    background-color: #f2f2f2; }
   .flex-card .navigation-tabs.outlined-pills .tabs.tabs-header.secondary {
-    background-color: #acce22; }
+    background-color: #52ab98; }
   .flex-card .navigation-tabs.outlined-pills .tabs.tabs-header.accent {
     background-color: #00efb7; }
   .flex-card .navigation-tabs.outlined-pills .tabs.tabs-header ul li a {
@@ -6634,13 +6640,13 @@ input.input {
   input.input.rounded {
     border-radius: 100px; }
   input.input.is-primary-focus:focus {
-    border-color: #00beda; }
+    border-color: #f2f2f2; }
     input.input.is-primary-focus:focus ~ span.icon i {
-      color: #00beda; }
+      color: #f2f2f2; }
   input.input.is-secondary-focus:focus {
-    border-color: #acce22; }
+    border-color: #52ab98; }
     input.input.is-secondary-focus:focus ~ span.icon i {
-      color: #acce22; }
+      color: #52ab98; }
   input.input.is-accent-focus:focus {
     border-color: #00efb7; }
     input.input.is-accent-focus:focus ~ span.icon i {
@@ -6763,7 +6769,7 @@ Sidebar Styles
     transform: scale(0.07);
     transform-origin: 0 0; }
     .menu-icon-wrapper svg path {
-      stroke: #acce22;
+      stroke: #52ab98;
       stroke-width: 40px;
       stroke-linecap: round;
       stroke-linejoin: round;
@@ -6826,7 +6832,7 @@ Sidebar Styles
       transition: all .3s;
       cursor: pointer; }
       .sidebar .sidebar-header svg:hover {
-        stroke: #acce22;
+        stroke: #52ab98;
         transform: rotate(180deg); }
   .sidebar .inner {
     position: relative; }
@@ -6858,7 +6864,7 @@ Sidebar Styles
         border-bottom: 1px solid #303d52;
         font-size: .8rem; }
         .sidebar .inner .sidebar-menu li.have-children li a:hover {
-          color: #00beda;
+          color: #f2f2f2;
           padding-left: 62px; }
       .sidebar .inner .sidebar-menu li.have-children span::after {
         position: absolute;
@@ -6872,7 +6878,7 @@ Sidebar Styles
     .sidebar .inner li.have-children, .sidebar .inner li {
       position: relative; }
     .sidebar .inner li.have-children.active > a, .sidebar .inner li.have-children.active > a span, .sidebar .inner li.have-children.active > a span:after {
-      color: #acce22; }
+      color: #52ab98; }
     .sidebar .inner li.active.have-children span::after {
       -moz-transform: rotate(90deg);
       -o-transform: rotate(90deg);
@@ -7058,7 +7064,7 @@ button:focus, button:active {
 #backtotop.visible a:hover {
   outline: none;
   opacity: 0.9;
-  background: #acce22; }
+  background: #52ab98; }
 
 #backtotop a {
   outline: none;

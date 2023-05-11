@@ -20,10 +20,26 @@ $guac-tomato: #e84146;
 $guac-onion: #939abf;
 $guac-avacado: #acce22;
 
+/*
 $guac-primary: #00beda;
 $guac-secondary: $guac-avacado;
 $guac-tertiary: $guac-onion;
 $guac-quad: $guac-tomato;
+*/
+
+// New template
+
+$ttt-dark-teal: #2b6777;
+$ttt-blue-grey: #c8d8e4;
+$ttt-white: #ffffff; 
+$ttt-grey: #f2f2f2;
+$ttt-green: #52ab98;
+
+$guac-primary: $ttt-grey;
+$guac-secondary: $ttt-green;
+$guac-tertiary: $ttt-white;
+$guac-quad: $ttt-dark-teal;
+
 
 $primary: $guac-primary;
 $secondary: $guac-secondary;
@@ -49,3 +65,5 @@ $dark-grey: #344258;
 $border-grey: #ccc;
 $muted-grey: #999;
 $section-grey: #fbfbfb;
+
+
