@@ -39,7 +39,7 @@ Classes to change the feel of bulma buttons
     &.primary-btn {
         outline: none;
         border-color: $primary;
-        background-color: $primary;
+        background-color: $secondary;
         color: $white;
         transition: all 0.5s;
         &:hover {

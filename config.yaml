@@ -57,9 +57,9 @@ params:
   - title: Blogs
     url: /blogs
   - title: Demos
-    url: https://guac.sh/
+    url: https://docs.guac.sh/guac-use-cases/
   - title: Docs
-    url: https://guac.sh/
+    url: https://docs.guac.sh/
   - title: Github
     url: https://github.com/guacsec/guac
     button: true
