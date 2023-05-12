@@ -154,6 +154,27 @@ params:
     - title: Identifies threats in your supply chain and provides a path to remediation
       icon: illustrations/undraw/undraw_software_engineer_re_tnjc.svg
 
+  sectionCollab:
+    title: In Open Source collaboration with
+    others:
+    - text: and other open source contributors...
+      link: https://github.com/guacsec/guac/graphs/contributors
+    orgs:
+    - name: Google
+      logo: logos/google.png
+      link: https://google.com/
+      big: true
+    - name: Kusari
+      logo: logos/kusari.png
+      link: https://kusari.dev
+      big: true
+    - name: Purdue University
+      link: https://www.purdue.edu/
+      logo: logos/purdue.png
+    - name: Citi
+      link: https://www.citi.com/
+      logo: logos/citi.png
+
 
   sectionGithub:
     title: What's next?
@@ -201,10 +222,6 @@ params:
     - name: Hemil Kadakia
       quote: At Yahoo, we have found immense value and significant efficiency by utilizing the open source project GUAC. GUAC has allowed us to streamline our processes and increase efficiency in a way that was not possible before. It allows us to ingest large number of SBOMs and also provides an interface to visualize the current state of images & packages used at Yahoo in real time. We look forward to continuing to utilize GUAC and contribute to its growth in any way we can.
       job: Sr. Mgr. Software Dev Engineering, Paranoids, Yahoo.
-      img: 3
-    - name: Gary Blackman
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: HR Manager
       img: 3
 
   section5: true
