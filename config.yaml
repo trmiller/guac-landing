@@ -160,8 +160,8 @@ params:
     subtitle: Learn more about GUAC
     button1Text: Github
     button1Link: https://github.com/guacsec/guac
-    button2Text: FAQ
-    button2Link: /faq
+    button2Text: Demos
+    button2Link: https://docs.guac.sh/guac-use-cases/
 
   sectionProblem:
     title: The current problem with software supply chain security
