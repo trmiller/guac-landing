@@ -13,10 +13,10 @@
       <div class="column is-8 mt-60">
         {{- range $features }}
         <div class="columns">
-        <div class="column">
+        <div class="columnn">
           <figure class="media-left is-1">
-            <p class="image small 2-by-2">
-              <img src="{{ printf "/images/illustrations/icons/%s.svg" .icon | relURL }}">
+            <p class="image small is-128x128">
+              <img src="{{ printf "/images/%s" .icon | relURL }}">
             </p>
           </figure>
         </div>
@@ -26,7 +26,6 @@
             <div class="content">
               <p>
                 <span class="icon-box-title">{{ .title }}</span>
-
                 <span class="icon-box-text">{{ .text | markdownify }}</span>
               </p>
             </div>

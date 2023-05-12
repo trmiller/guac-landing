@@ -133,7 +133,7 @@ params:
       url: https://github.com/guacsec/guac
       buttonText: Get GUAC
     - title: Reactive
-      icon: plug-cloud
+      icon: doc-sync
       texts: 
       - text: Find which parts of your organization's inventory are affected by a new vulnerability.
       - text: Track a suspicious project lifecycle event back to the risk that was introduced into your organization.
@@ -148,12 +148,11 @@ params:
     subtitle: ""
     features:
     - title: Establishes connections between your software catalog
-      # Icon (from /images/illustrations/icons/___.svg)
-      icon: laptop-globe
+      icon: illustrations/undraw/undraw_share_link_re_54rx.svg
     - title: Unveils gaps in the software supply chain data using other data sources
-      icon: plug-cloud
+      icon: illustrations/undraw/undraw_personal_data_re_ihde.svg
     - title: Identifies threats in your supply chain and provides a path to remediation
-      icon: doc-sync
+      icon: illustrations/undraw/undraw_software_engineer_re_tnjc.svg
 
 
   sectionGithub:
@@ -171,7 +170,7 @@ params:
   sectionVision:
     title: Our Vision
     subtitle: GUAC (Graph for Understanding Artifact Composition) aims to fill in the gaps by ingesting software metadata, like SBOMs, and mapping out relationships between software. When you know how one piece of software affects another, you’ll be able to fully understand your software security position and act as needed. 
-
+    image: illustrations/undraw/undraw_image_viewer_re_7ejc.svg
 
 
 
