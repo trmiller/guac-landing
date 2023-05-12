@@ -4,7 +4,7 @@ publishDir: public/
 canonifyURLs: true
 title: guac
 theme: hugo-fresh
-googleAnalytics: G-E0J5S9MGCM
+googleAnalytics: G-VVPLWNX4L9
 # Disables warnings
 disableKinds:
 - taxonomy
