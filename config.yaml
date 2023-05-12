@@ -191,17 +191,17 @@ params:
 
 
   section4:
-    title: Our Clients love us!
-    subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
+    title: What people are saying about GUAC!
+    subtitle: Hear what our community and partners have to say about GUAC!
     clients:
-    - name: Irma Walters
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: Accountant
-      img: 1
-    - name: John Bradley
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: Financial Analyst
-      img: 2
+    - name: Dejan Bosanac
+      quote: With the growing number of software supply chain security (SSCS) data, tools that allow us to find relevant information are crucial. Guac, providing graph representation of software packages, dependencies, vulnerabilities, attestations, etc. is a great tool for use cases in this domain. With mechanisms to ingest and certify data from various sources and GraphQL API to later query those data, we see it as a good foundation for our current and future SSCS efforts. Being a true open source initiative with a welcoming community is just a plus.  
+      job: Engineer at Red Hat
+      img: 3
+    - name: Hemil Kadakia
+      quote: At Yahoo, we have found immense value and significant efficiency by utilizing the open source project GUAC. GUAC has allowed us to streamline our processes and increase efficiency in a way that was not possible before. It allows us to ingest large number of SBOMs and also provides an interface to visualize the current state of images & packages used at Yahoo in real time. We look forward to continuing to utilize GUAC and contribute to its growth in any way we can.
+      job: Sr. Mgr. Software Dev Engineering, Paranoids, Yahoo.
+      img: 3
     - name: Gary Blackman
       quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
       job: HR Manager
