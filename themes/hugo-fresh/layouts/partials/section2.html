@@ -2,7 +2,7 @@
 {{- $title    := index $section2 "title" }}
 {{- $subtitle := index $section2 "subtitle" }}
 {{- $features := index $section2 "features" }}
-<section id="about-guac" class="section is-medium anchor">
+<section id="about-guac" class="section section-primary is-medium anchor">
   <div class="container">
     <div class="columns">
       <div class="column is-centered-tablet-portrait">
@@ -12,17 +12,15 @@
       </div>
       <div class="column is-8 mt-60">
         {{- range $features }}
-        <div class="columns">
-        <div class="columnn">
-          <figure class="media-left is-1">
-            <p class="image small is-128x128">
+        <div class="columns guac-does">
+        <div class="column is-narrow">
+          <figure class="image is-128x128 is-centered">
               <img src="{{ printf "/images/%s" .icon | relURL }}">
-            </p>
           </figure>
         </div>
         <div class="column is-four-fifths">
         <article class="media icon-box">
-          <div class="media-content mt-50">
+          <div class="media-content">
             <div class="content">
               <p>
                 <span class="icon-box-title">{{ .title }}</span>

@@ -1,0 +1,54 @@
+{{- $section := .Site.Params.sectionCollab }}
+{{- $title    := index $section "title" }}
+<section id="collaborators" class="section is-medium anchor">
+  <div class="container">
+    <div class="title-wrapper has-text-centered">
+      <h2 class="title is-4">{{ $title }}</h2>
+    </div>
+
+    <div class="content-wrapper is-variable">
+
+    <!-- big companies -->
+    <div class="columns is-5">
+    {{- range $section.orgsBig }}
+    <div class="column">
+    <figure class="media-left">
+    <p class="image medium">
+    <a href="{{ printf .link | relURL }}">
+    <img src="{{ printf "/images/logos/%s" .logo | relURL }}" alt="{{ .name }}">
+    </a>
+    </p>
+    </figure>
+    </div>
+    {{- end }}
+    </div>
+    </div>
+
+    <div class="divider is-centered"></div>
+    <div class="content-wrapper is-variable">
+    <!-- other companies -->
+    <div class="columns">
+    <div class="column is-1"> </div>
+    {{- range $section.orgs }}
+    <div class="column">
+    {{- if .logo }}
+    <figure class="media-left">
+    <a href="{{ printf .link | relURL }}">
+    <img class="small-logos" src="{{ printf "/images/logos/%s" .logo | relURL }}" alt="{{ .name }}">
+    </a>
+    </figure>
+    {{- else }}
+
+    <a href="{{ printf .link | relURL }}">
+    <h4 class="other-contributors">{{ .name }}</h4>
+    </a>
+    {{- end }}
+    </div>
+    {{- end }}
+    </div>
+
+
+    </div>
+
+    </div>  <!-- end container -->
+</section>

@@ -15,6 +15,11 @@
     {{ partial "section-beta.html" . }}
     {{ end }}
 
+    {{ if .Site.Params.sectionCollab }}
+    {{ partial "section-collab.html" . }}
+    {{ end }}
+
+
     {{ if .Site.Params.section2 }}
     {{ partial "section2.html" . }}
     {{ end }}

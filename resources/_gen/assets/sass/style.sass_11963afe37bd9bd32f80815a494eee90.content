@@ -2818,6 +2818,12 @@ a.box:active {
   .image.is-128x128 {
     height: 128px;
     width: 128px; }
+  .image.is-512x512 {
+    height: 512px;
+    width: 512px; }
+  .image.is-1024x1024 {
+    height: 1024px;
+    width: 1024px; }
 
 .notification {
   background-color: whitesmoke;
@@ -6429,6 +6435,22 @@ img.pushed-image {
 
 .anchor {
   padding-top: 90px; }
+
+.is-128-height {
+  height: 128px; }
+
+.small-logos {
+  max-height: 75px;
+  width: auto; }
+
+.other-contributors {
+  font-size: 28px; }
+
+.guac-does {
+  padding-bottom: 50px; }
+
+img.guac-does-img {
+  width: 128px; }
 
 /* ==========================================================================
 Hero styles

@@ -159,21 +159,25 @@ params:
     others:
     - text: and other open source contributors...
       link: https://github.com/guacsec/guac/graphs/contributors
-    orgs:
+    orgsBig:
     - name: Google
-      logo: logos/google.png
+      logo: google.png
+      # <!-- logos at images/logos/ -->
       link: https://google.com/
-      big: true
     - name: Kusari
-      logo: logos/kusari.png
+      logo: kusari.svg
       link: https://kusari.dev
-      big: true
+    orgs:
     - name: Purdue University
       link: https://www.purdue.edu/
-      logo: logos/purdue.png
+      logo: purdue.png
     - name: Citi
       link: https://www.citi.com/
-      logo: logos/citi.png
+      logo: citi.png
+    - name: and many open source contributors...
+      link: https://github.com/guacsec/guac/contributors
+
+
 
 
   sectionGithub:
